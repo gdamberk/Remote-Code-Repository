@@ -1,0 +1,13 @@
+﻿  TestClass.cpp
+e:\syracuse\sem2\ood\code\project4\persist\persist.h(214): error C2039: 'fromXmlElement': is not a member of 'NoSqlDb::PayLoad'
+  e:\syracuse\sem2\ood\code\project4\payload\payload.h(57): note: see declaration of 'NoSqlDb::PayLoad'
+  e:\syracuse\sem2\ood\code\project4\persist\persist.h(182): note: while compiling class template member function 'NoSqlDb::DbElement<NoSqlDb::PayLoad> NoSqlDb::Persist<NoSqlDb::PayLoad>::AddValue(NoSqlDb::DbElement<NoSqlDb::PayLoad>,NoSqlDb::Sptr)'
+  e:\syracuse\sem2\ood\code\project4\persist\persist.h(244): note: see reference to function template instantiation 'NoSqlDb::DbElement<NoSqlDb::PayLoad> NoSqlDb::Persist<NoSqlDb::PayLoad>::AddValue(NoSqlDb::DbElement<NoSqlDb::PayLoad>,NoSqlDb::Sptr)' being compiled
+  e:\syracuse\sem2\ood\code\project4\persist\persist.h(76): note: while compiling class template member function 'NoSqlDb::Persist<NoSqlDb::PayLoad>::Persist(NoSqlDb::DbCore<NoSqlDb::PayLoad> &)'
+  e:\syracuse\sem2\ood\code\project4\testclassproj\testclass.cpp(376): note: see reference to function template instantiation 'NoSqlDb::Persist<NoSqlDb::PayLoad>::Persist(NoSqlDb::DbCore<NoSqlDb::PayLoad> &)' being compiled
+  e:\syracuse\sem2\ood\code\project4\testclassproj\testclass.cpp(376): note: see reference to class template instantiation 'NoSqlDb::Persist<NoSqlDb::PayLoad>' being compiled
+e:\syracuse\sem2\ood\code\project4\persist\persist.h(214): error C3861: 'fromXmlElement': identifier not found
+e:\syracuse\sem2\ood\code\project4\persist\persist.h(145): error C2039: 'toXmlElement': is not a member of 'NoSqlDb::PayLoad'
+  e:\syracuse\sem2\ood\code\project4\payload\payload.h(57): note: see declaration of 'NoSqlDb::PayLoad'
+  e:\syracuse\sem2\ood\code\project4\persist\persist.h(124): note: while compiling class template member function 'void NoSqlDb::Persist<NoSqlDb::PayLoad>::toXmlRecord(NoSqlDb::Sptr,const NoSqlDb::Key &,NoSqlDb::DbElement<NoSqlDb::PayLoad> &)'
+  e:\syracuse\sem2\ood\code\project4\persist\persist.h(165): note: see reference to function template instantiation 'void NoSqlDb::Persist<NoSqlDb::PayLoad>::toXmlRecord(NoSqlDb::Sptr,const NoSqlDb::Key &,NoSqlDb::DbElement<NoSqlDb::PayLoad> &)' being compiled
